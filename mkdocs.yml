@@ -1,7 +1,7 @@
 site_name: DragKnife – Anleitung
 site_description: Anleitung für das Fusion-360-Add-In DragKnife (Eco und Pro)
-# TODO: nach dem Anlegen des Repos / der Domain anpassen
 site_url: https://macmanpb.github.io/dragknife-docs/
+copyright: "© 2026 Peter Boeker (pbmilltec). Alle Rechte vorbehalten."
 
 theme:
   name: material
