@@ -1,0 +1,125 @@
+/* Farben der Kalibrier-Grafiken (aus dem Kalibrier-Tab übernommen) */
+:root {
+  --dk-panel: #ffffff;
+  --dk-cut: #1d9e75;
+  --dk-scratch: #d85a30;
+  --dk-dim: #888780;
+}
+[data-md-color-scheme="slate"] {
+  --dk-panel: #2d3946;
+  --dk-cut: #2fbd8f;
+  --dk-scratch: #e8825e;
+  --dk-dim: #9aa7b5;
+}
+.dk-figures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.dk-figures figure {
+  margin: 0;
+  text-align: center;
+  flex: 1 1 0;
+  min-width: 170px;
+  max-width: 240px;
+}
+.dk-figures svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  background: var(--dk-panel);
+}
+.dk-figures figcaption {
+  font-size: .75rem;
+  margin-top: .4rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Farben der Vorschau-Legende (aus preview.html übernommen) */
+:root {
+  --dk-rapid: #0a4f9c;
+  --dk-pcut: #2e7d32;
+  --dk-plunge: #b58900;
+  --dk-swivel: #b34700;
+  --dk-ramp: #7b1fa2;
+  --dk-spindle: #d32f2f;
+}
+[data-md-color-scheme="slate"] {
+  --dk-rapid: #569cd6;
+  --dk-pcut: #6a9955;
+  --dk-plunge: #dcdcaa;
+  --dk-swivel: #ce9178;
+  --dk-ramp: #c586c0;
+  --dk-spindle: #ff4d4d;
+}
+.dk-sw {
+  display: inline-block;
+  width: 1.6em;
+  height: .6em;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.dk-figures.dk-steps figure {
+  min-width: 120px;
+  max-width: 160px;
+}
+.dk-note {
+  font-size: .75rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: -.4rem;
+}
+
+/* Farbschema passend zum DragKnife-Icon: Stahlblau (Klinge) und Bernstein (Pfeil) */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #3b5ba5;
+  --md-primary-fg-color--light: #7090c0;
+  --md-primary-fg-color--dark: #2a4580;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #ffffffb3;
+  --md-accent-fg-color: #d98200;
+  --md-accent-fg-color--transparent: #d982001a;
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: #ffffffb3;
+  --md-typeset-a-color: #2f5da8;
+  --dk-arc: #3b5ba5;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #2d4585;
+  --md-primary-fg-color--light: #7090c0;
+  --md-primary-fg-color--dark: #213566;
+  --md-accent-fg-color: #f9b91e;
+  --md-accent-fg-color--transparent: #f9b91e1a;
+  --md-typeset-a-color: #8fb0e8;
+  --dk-arc: #f9b91e;
+}
+
+/* Logo: am Desktop ca. 3 rem in der Kopfzeile, mobil nur im Menü (1,5 rem) */
+.md-nav--primary .md-nav__title .md-nav__button.md-logo img,
+.md-nav--primary .md-nav__title .md-nav__button.md-logo svg {
+  height: 1.5rem !important;
+  width: auto !important;
+}
+@media screen and (min-width: 76.25em) {
+  .md-header__button.md-logo {
+    padding: .2rem .4rem;
+  }
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg {
+    height: 3rem;
+    width: auto;
+  }
+  .md-sidebar {
+    top: 3.4rem;
+  }
+  .md-sidebar__scrollwrap {
+    max-height: calc(100vh - 3.4rem);
+  }
+}
+html {
+  scroll-padding-top: 4.2rem;
+}

@@ -1,0 +1,64 @@
+site_name: DragKnife – Anleitung
+site_description: Anleitung für das Fusion-360-Add-In DragKnife (Eco und Pro)
+# TODO: nach dem Anlegen des Repos / der Domain anpassen
+site_url: https://macmanpb.github.io/dragknife-docs/
+
+theme:
+  name: material
+  logo: assets/img/dragknife.png
+  favicon: assets/img/dragknife.png
+  language: de
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - content.tabs.link
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle: { icon: material/weather-night, name: Dunkles Design }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle: { icon: material/weather-sunny, name: Helles Design }
+
+extra_css:
+  - assets/css/dragknife.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html # <figure> mit Bildunterschrift
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - glightbox # Bilder zum Vergrößern anklicken
+
+nav:
+  - Start: index.md
+  - Quickstart: quickstart.md
+  - In Fusion vorbereiten: fusion-vorbereitung.md
+  - Aufgaben:
+      - Messer kalibrieren: aufgaben/kalibrieren.md
+      - Werkzeuge und Materialien verwalten: aufgaben/bibliothek.md
+      - Ecken – der Swivel-Move: aufgaben/ecken-konturen.md
+      - Vorschau nutzen (Pro): aufgaben/vorschau.md
+  - Grenzen des Drag-Knife: drag-knife-grenzen.md
+  - Fehlersuche: fehlersuche.md
+  - Eco und Pro: eco-pro.md
