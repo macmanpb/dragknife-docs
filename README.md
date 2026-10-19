@@ -1,6 +1,6 @@
 # DragKnife – Anleitung
 
-Quelltexte der Kunden-Anleitung zum Fusion-360-Add-In **DragKnife** (Eco und Pro).
+Quelltexte der Kunden-Anleitung zum Autodesk-Fusion-Add-In **DragKnife** (Eco und Pro).
 
 **Online:** <https://macmanpb.github.io/dragknife-docs/>
 

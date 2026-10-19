@@ -1,6 +1,6 @@
 # DragKnife – Anleitung
 
-DragKnife ist ein Add-In für Fusion 360, das den G-Code für **Portal-CNC-Fräsen mit Drag-Knife (Schleppmesser) als Werkzeug** nachbearbeitet. Du programmierst deine Kontur wie gewohnt als 2D-Contour in Fusion – DragKnife macht daraus Code, mit dem das Messer an Ecken sauber ausgerichtet wird.
+DragKnife ist ein Add-In für Autodesk Fusion, das den G-Code für **Portal-CNC-Fräsen mit Drag-Knife (Schleppmesser) als Werkzeug** nachbearbeitet. Du programmierst deine Kontur wie gewohnt als 2D-Contour in Fusion – DragKnife macht daraus Code, mit dem das Messer an Ecken sauber ausgerichtet wird.
 
 ## Was DragKnife für dich erledigt
 
@@ -13,7 +13,7 @@ Ein Schleppmesser dreht sich nicht von selbst auf die neue Schnittrichtung. Der 
 
 ## Was du brauchst
 
-- Fusion 360 mit einer 2D-Contour-Operation (Linien und Bögen in der XY-Ebene)
+- Autodesk Fusion mit einer 2D-Contour-Operation (Linien und Bögen in der XY-Ebene)
 - eine Portal-CNC mit Schleppmesser als Werkzeug
 - den **Blade offset** deines Messers (Abstand von Klingenspitze zur Drehachse). Kennst du ihn nicht, ermittelst du ihn über die [Kalibrierung](aufgaben/kalibrieren.md).
 
