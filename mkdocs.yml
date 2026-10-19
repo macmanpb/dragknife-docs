@@ -1,7 +1,7 @@
 site_name: DragKnife – Anleitung
 site_description: Anleitung für das Fusion-360-Add-In DragKnife (Eco und Pro)
 site_url: https://macmanpb.github.io/dragknife-docs/
-copyright: "© 2026 Peter Boeker (pbmilltec). Alle Rechte vorbehalten."
+copyright: "© 2026 Peter Boeker (pbmilltec). Alle Rechte vorbehalten. · <a href=\"https://macmanpb.github.io/dragknife-docs/rechtliches/\">Rechtliches</a>"
 
 theme:
   name: material
@@ -48,6 +48,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - privacy
   - glightbox # Bilder zum Vergrößern anklicken
 
 nav:
@@ -62,3 +63,4 @@ nav:
   - Grenzen des Drag-Knife: drag-knife-grenzen.md
   - Fehlersuche: fehlersuche.md
   - Eco und Pro: eco-pro.md
+  - Rechtliches: rechtliches.md
